@@ -4,6 +4,7 @@
   "author": "Greg Lobinski <greglobinski@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "algoliasearch": "^3.35.1",
     "antd": "^3.7.0",
     "fontfaceobserver": "^2.0.13",
     "gatsby": "^2.0.21",

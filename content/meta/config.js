@@ -3,6 +3,13 @@ module.exports = {
   shortSiteTitle: "Fang's Notebook", // <title> ending for posts and pages
   siteDescription: "Fang's personal blog on tech and occasionally something else",
   siteUrl: "https://nichijou.co/",
+  
+  algolia:{
+    appId: "JDLZH1UI2F",
+    searchOnlyApiKey: "af0f1b50de9f38d2260e3fc4ce24147c",
+    indexName: "Blog",
+  },
+
   // pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
