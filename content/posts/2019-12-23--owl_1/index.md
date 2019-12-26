@@ -1,5 +1,5 @@
 ---
-title: "Using OCaml for Scientific Computing -- 1"
+title: "Using OCaml for Scientific Computing -- 1. Setup & Conventions"
 category: "OCaml"
 cover: camel.jpg
 author: Fang 
