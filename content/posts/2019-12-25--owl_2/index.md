@@ -216,6 +216,7 @@ example:
 ## Comparison Functions
 
 * Group 1: compares two ndarrays then returns a boolean value.
+
 ```ocaml
 val equal : ('a, 'b) t -> ('a, 'b) t -> bool
 
@@ -257,6 +258,7 @@ val greater_scalar : ('a, 'b) t -> 'a -> bool
 ```
 
 * Group 4: The fourth group is similar to the second one but compares an ndarray with a scalar value, the return is an 0-1 ndarray.
+
 ```ocaml
 val elt_equal_scalar : ('a, 'b) t -> 'a -> ('a, 'b) t
 
@@ -273,7 +275,7 @@ It's recommended to use operators if possible for conciseness.
 
 Owl.Ext module provides a set of operators to allow you to interoperate on different number types, as below. It automatically casts types for you if necessary.
 
-```txt
+```
 =============    =============     ==========================     ==============
 Operator         Example           Operation                      Functions
 =============    =============     ==========================     ==============
