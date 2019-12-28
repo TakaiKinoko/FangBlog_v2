@@ -1,5 +1,5 @@
 ---
-title: "My LeetCode Journey -- 1. BST"
+title: "My LeetCode Journey -- BST 1. Review"
 category: "LeetCode"
 cover: eistein2.jpeg
 author: Fang 
@@ -147,6 +147,12 @@ class Solution {
     
 }
 ```
+
+### 285. [Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/)
+Given a binary search tree and a node in it, find the in-order successor of that node in the BST.
+
+The successor of a node p is the node with the smallest key greater than p.val.
+
 
 
 ### 173. [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
