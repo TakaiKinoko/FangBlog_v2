@@ -96,3 +96,11 @@ class Solution {
   }
 }
 ```
+
+## Complexity
+
+* Time complexity :  `O(logN)`. 
+  * First to search the node to delete costs `O(H_1)`, where `H_1` is the tree height from the root to the node to delete
+  * Delete process takes `O(H_2)` time, where `H_2` is a tree height from the root to delete to the leafs. That in total results in `O(H_1 + H_2) =O(H)` time complexity, where `H` is a tree height, equal to `logN` in the case of the balanced tree.
+
+* Space complexity :`O(H)` to keep the recursion stack, where `H` is a tree height. `H = logN` for the balanced tree.
