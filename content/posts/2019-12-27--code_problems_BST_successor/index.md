@@ -1,7 +1,7 @@
 ---
 title: "My LeetCode Journey -- BST 2. Finding Successor"
 category: "LeetCode"
-cover: eistein3.jpeg
+cover: eistein3.png
 author: Fang 
 ---
 
@@ -102,7 +102,7 @@ Below is the solution given by LeetCode.
 
 Instead of analyzing the problem in 4 cases, it broke it down to 2 cases (fundamentally the same with Solution 1): 
 
-* If the node has a right child, the successor is somewhere lower in the tree. In this case, go one step right and then left till you can. This approach has $${O}(H_p)$$ time complexity, where $$H_p$$is a height of the node p.
+* If the node has a right child, the successor is somewhere lower in the tree. In this case, go one step right and then left till you can. This approach has `O(H)` time complexity, where `H` is a height of the tree.
 
 * Otherwise, the successor is somewhere upper in the tree. Here, instead passing information with an extra parameter, stack is used. The idea is to keep just one previous node during the inorder traversal. If that previous node is equal to p, then the current node is a successor of p.
 
@@ -111,7 +111,7 @@ Instead of analyzing the problem in 4 cases, it broke it down to 2 cases (fundam
     * Pop out the last node. If its predecessor is equal to p, return that last node. Otherwise, save that node to be the predecessor in the next turn of the loop.
 
     * Go one step right.
-This approach has $${O}(H)$$ time complexity. Basically, this approach is universal and could be used for the case 1 as well. We simply don't do that because the approach 1 is faster.
+This approach has O(H) time complexity. Basically, this approach is universal and could be used for the case 1 as well. We simply don't do that because the approach 1 is faster.
 
 ```java
 class Solution {
