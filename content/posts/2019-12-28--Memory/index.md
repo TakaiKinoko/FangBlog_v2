@@ -1,7 +1,7 @@
 ---
 title: "Notes From What Every Programmer Should Know About Memory"
 category: "OS"
-cover: memory.gif
+cover: memory.jpg
 author: Fang 
 ---
 
@@ -169,3 +169,7 @@ The DRAM cells are organized in rows and columns. They could all be aligned in o
 * the number of address lines is directly responsible for the cost of the memory controller, motherboards, DRAM module, and DRAM chip
 * it takes a while before the results of the read or write operation are available
 
+
+### 2.2 DRAM Access Technical Details
+
+### 2.3 Other Main Memory Users
